@@ -22,7 +22,7 @@
 <br />
 
 <p align="center">
-  <img src="assets/images/Capture.PNG" alt="landing-page-gif" width="80%" />
+  <img src="assets/images/Capture.PNG" alt="landing-page-gif"  />
 </p>
 
 <br />
@@ -34,7 +34,7 @@
 - [Demonstration & Features](#demonstration)
 - [Technologies Used](#technologies-used)
 - [Local Setup & Contributing](#contributing)
-- [License](#license-)
+- [License](#license)
 - [Authors](#authors)
 
 <br />
@@ -42,14 +42,14 @@
 ### Problem we are trying to solve?
 
 There are many websites and apps available today for publishing announcements such as Instagram, Facebook, etc. But they are not intended for this, as their primary job is to entertain us by share photos, and reels.
-<br />
+
 
 Many juniors ask their doubts on watsaap group which has capacity of only 250 members.How can all the juniors be on same group same goes for seniors.This leads to lack of connectivity and knowledge.
 
-<br />
+
 After sems get over the need of that sem’s book is no more . They can be sold to juniors but who will connect them with seniors. 
 
-<br />
+
 **Problems with the exisiting sytem?**
 
 The current solutions assumes to have 2 platforms 
@@ -71,7 +71,7 @@ I wanted to solve this issue by developing a website that solves each of the abo
 
 That's where we come into picture.
 <br />
-<br />
+
 
 ## Architecture and Design
 
@@ -109,9 +109,9 @@ The presentation for College Zone can be found [here](https://docs.google.com/pr
 **Landing Page**
 
 <p align="left">
-  <img src='assets/images/Capture.PNG' alt='Intro Screen' width="80%">
-  <img src='assets/images/2.PNG' alt='Features' width="80%">
-  <img src='assets/images/3.PNG' alt='Features 2' width="80%">
+  <img src='assets/images/Capture.PNG' alt='Intro Screen'>
+  <img src='assets/images/2.PNG' alt='Features' >
+  <img src='assets/images/3.PNG' alt='Features 2' >
 </p>
 
 <br />
@@ -179,7 +179,7 @@ The presentation for College Zone can be found [here](https://docs.google.com/pr
   -  Contact info
 <br />
 
-<img src='assets/images/6.PNG' alt='Start Exam' width="80%">
+<img src='assets/images/6.PNG' alt='Start Exam' >
 
 
 <br />
