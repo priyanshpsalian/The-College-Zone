@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>College Zone: Confessions</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="css1/font-awesome.min.css">
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+
+<body>
+    
+    {{> header1}}
+
+    {{!-- <section class="testimonials-section section-ptb" data-aos="fade-up"> --}}
+        <div class="testimonials-area my-5">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center mb-4">
+                            <h4>Confession Page</h4>
+                            <h2>Our Student Saying...</h2>
+                        </div>
+                    </div>
+                </div>
+                {{!-- <div class="row"> --}}
+                    {{!-- <div class="col-md-12"> --}}
+                        {{!-- <div class="testimonials-wrapper owl-carousel"> --}}
+                            {{#each da}}
+                            <div class="single-testimonial border-2 p-4">
+                                <div class="testimonial-referance">
+                                    <p><strong>Title: </strong> {{title}}</p>
+                                </div>
+                                <p>{{attach_links}}</p>
+                            </div>{{/each}}
+                            
+                        {{!-- </div> --}}
+                    {{!-- </div> --}}
+                {{!-- </div> --}}
+            </div>
+        </div>
+            {{!-- </div> --}}
+        {{!-- </div> --}}
+    {{!-- </section> --}}
+    {{> indexFooter}}
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/buybook_index.js"></script>
+</body>
+
+</html>

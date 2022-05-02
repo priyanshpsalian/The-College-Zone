@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eduaid Responsive Html5 Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="css1/font-awesome.min.css">
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+        {{>header1}}
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+    <section class="hero-section height-490 aos-init overlay aos-animate" style="background-image: url(https://images.unsplash.com/photo-1450101499163-c8848c66ca85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80);
+    height: 400px;" data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-3">Register now</h1>
+                            <div class="page-breadcrumb">
+                                <p>To get benifit of various features register now</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!--Start Page -->
+    <div class="page-wrapper section-ptb-3" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="apply-wrapper">
+                        <h2>Apply this form to register</h2>
+
+                        <form action="/admin_register" method="post" class="apply_form bg_dark_9 p-5">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_first_name">Enter First Name</label>
+                                        <input type="text" name="firstname" id="firstname" required class="form-control"
+                                            placeholder="First Name" />
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_last_name">Enter Last Name</label>
+                                        <input type="text" class="form-control" name="lastname" id="lastname" required
+                                            placeholder="Last Name">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_phone_number">Phone Number</label>
+                                        <input type="text" name="phone" id="phone" required class="form-control"
+                                            placeholder="Phone Number">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_email">Email Address</label>
+                                        <input type="text" class="form-control" name="email" id="email" required
+                                            placeholder="Email Address">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6" >
+                                <div class="form-group">
+                                    <label for="gender" style="font-size: larger;">Gender</label>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gender" value="male" style="height: 16px;">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Male
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="gender" value="female" style="height: 16px;">
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            Female
+                                        </label>
+                                    </div>
+                                </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label>Age:</label>
+                                        <input class="form-control" type="number" name="age" id="age" required>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_city">Password</label>
+                                        <input type="password" name="password" id="password" required
+                                            class="form-control" placeholder="Password">
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_last_name">Confirm Password</label>
+                                        <input type="password" name="confirmpassword" id="confirmpassword" required
+                                            class="form-control" placeholder="Confirm Password">
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-md-12 mx-auto text-center">
+                                    <button type="submit" class="button_one mt-3">Register</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page -->
+    <!-- Start Footer -->
+    {{!-- <footer data-aos="fade-up">
+        <div class="subscribe-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="subscribe-wrapper p-5 bg-white">
+                            <div class="row align-items-center">
+                                <div class="col-md-6">
+                                    <div class="subscribe-text">
+                                        <h2>Newsletters</h2>
+                                        <p>Consectetur adipisicing elit, sed do eiusmod tempoe</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="subscribe-form">
+                                        <form action="#">
+                                            <input type="email" class="form-control"
+                                                placeholder="Enter Your Email Here">
+                                            <button type="submit">Subscribe</button>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-area default_bg">
+            <div class="footer-top section-ptb-2">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single_widget my-xs-4">
+                                <div class="address-widget">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="images/footer_logo.png" alt=""
+                                                class="img-fluid"></a>
+                                    </div>
+                                    <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@eduaid.com</p>
+                                    <span>+892 5555 444</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3d-5">
+                            <div class="single_widget">
+                                <h3>Useful Links</h3>
+                                <div class="widget-list">
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Our Instructors</a></li>
+                                        <li><a href="#">Courses</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Service Plus</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-xs-5">
+                            <div class="single_widget">
+                                <h3>Our Services</h3>
+                                <div class="widget-list">
+                                    <ul>
+                                        <li><a href="#">CSE Engeering</a></li>
+                                        <li><a href="#">Graduation</a></li>
+                                        <li><a href="#">Courses</a></li>
+                                        <li><a href="#">Admission</a></li>
+                                        <li><a href="#">Internation</a></li>
+                                        <li><a href="#">Faqs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single_widget">
+                                <h3>Latest News</h3>
+                                <div class="widget-item">
+                                    <div class="widget-image">
+                                        <a href="#"><img src="images/blog_01.jpg" alt="blog one" /></a>
+                                    </div>
+                                    <div class="widget-content">
+                                        <h5><a href="#">7 Step Social Media Marke ting Strategy</a></h5>
+                                        <div class="widget-meta">
+                                            <span>05 Jan 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-item">
+                                    <div class="widget-image">
+                                        <a href="#"><img src="images/blog_02.jpg" alt="blog one" /></a>
+                                    </div>
+                                    <div class="widget-content">
+                                        <h5><a href="#">7 Step Social Media Marke ting Strategy</a></h5>
+                                        <div class="widget-meta">
+                                            <span>05 Jan 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrapper border-top py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footer-bottom">
+                                <div class="copyright-text">
+                                    <p>Eduaid 2019. All Rights Reserved.</p>
+                                </div>
+                                <div class="social-accounts">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <div class="scroll-icon">
+                <i class="fas fa-arrow-down"></i>
+            </div>
+        </div>
+    </footer> --}}
+    {{> indexFooter}}
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>College Zone: Login</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="css1/font-awesome.min.css">
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+   {{> header1}}
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+    <section class="hero-section height-470" style="background-image:url(https://thumbs.dreamstime.com/b/login-illustration-letter-cubes-forming-word-36025252.jpg)" data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            {{!-- <h1 class="display-3"></h1> --}}
+                            {{!-- <div class="page-breadcrumb">
+                                <p><a class="text-white" href="index.html">Home</a> - Apply</p>
+                            </div> --}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!--Start Page -->
+    <div class="page-wrapper section-ptb-3" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="apply-wrapper">
+                        <h2>Login now</h2>
+
+                        <form action="/login" method="post" class="apply_form bg_dark_9 p-5">
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_first_name">Enter Username</label>
+                                        <input placeholder="Username" name="uname" required class="form-control" />
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="user_last_name">Enter Password</label>
+                                        <input class="form-control" type="password" placeholder="Password" name="psw"
+                                            required>
+                                    </div>
+                                </div>
+                            </div>
+                           
+                            <div class="row">
+                                <div class="col-md-12 d-flex flex-column bd-highlight mb-3 text-center">
+                                    <button type="submit" class="button_one mt-3">Login</button>
+                                    
+                                    <a href="register" class="link-primary mt-3">New to CollegeZone ?</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page -->
+    <!-- Start Footer -->
+    {{> indexFooter}}
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

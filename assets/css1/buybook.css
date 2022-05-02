@@ -1,0 +1,56 @@
+.thumbnail1{
+    height: 320px;
+    /* width: 160px; */
+    text-align: center;
+}
+.thumbnail{
+    padding: 5px 5px;
+    border: #dddddd 3px solid;
+    background-color: #ff5202c4;
+}
+.details{
+    font-size: 13px;
+}
+.priceouter{
+    border: white 2px solid;
+    padding: 2px 6px;
+    font-size: 14px;
+}
+.title-{
+    text-decoration: none;
+    color: black;
+}
+.description{
+    padding-top: 6px;
+}
+.aos-animate{
+    /* background-color: #d3cf489c; */
+}
+.extra1{
+    justify-content: center;
+}
+
+@media (min-width: 399px) and (max-width: 767px) {
+    /* body {
+      background-color: lightblue;
+    } */
+    .template1{
+        width: 300px;
+    }
+    .row{
+        width:90vw;
+    }
+    .container{
+        margin: 20px 5vw;
+    }
+    @media (max-width: 667px) {
+        .template1{
+            width: 260px;
+        }
+    }
+    @media (max-width: 577px) {
+        .template1{
+            width: 350px;
+        }
+    }
+  }

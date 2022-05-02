@@ -1,0 +1,28 @@
+
+.thumbnail1{
+    height: 300px;
+    /* width: 160px; */
+    text-align: center;
+}
+.thumbnail{
+    padding: 20px 20px;
+    border: #dddddd 3px solid;
+    background-color: #ffca7b7d;
+}
+.details{
+    font-size: 13px;
+}
+.priceouter{
+    border: white 2px solid;
+    padding: 2px 6px;
+}
+.title-{
+    text-decoration: none;
+    color: black;
+}
+.description{
+    padding-top: 6px;
+}
+.displayNone{
+    display: none;
+}

@@ -1,0 +1,993 @@
+@import "./media_query";
+@import "./variables";
+
+.default_bg {
+    background-color: $default_bg_color;
+}
+.hover_bg {
+    background-color: $hover;
+}
+.hover_bg_2 {
+    background-color: $hover_2;
+}
+.semi_dark_bg {
+    background-color: $semi_dark;
+}
+.dark_2_bg {
+    background-color: $dark_2;
+}
+.semi_black_bg {
+    background-color: rgba($dark_2,.65);
+}
+.dark_3_bg {
+    background-color: $dark_9;
+}
+.black_bg {
+    background-color: $default_bg_color;
+}
+.black_2_bg {
+    background-color: $black_2;
+}
+.bg_dark_9 {
+    background-color: $dark_9;
+}
+.height-800 {
+    height: 800px;
+}
+.height-600 {
+    height: 600px;
+}
+.height-700 {
+    height: 700px;
+}
+.section-ptb {
+    padding-top: 130px;
+    padding-bottom: 130px;
+    @include desktop {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @include tablet {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+    @include mobile {
+        padding-top: 80px;
+        padding-bottom: 80px;
+    }
+}
+.section-ptb-2 {
+    padding-top: 225px;
+    padding-bottom: 130px;
+    @include tablet {
+        padding-top: 100px;
+        padding-bottom: 70px;
+    }
+    @include mobile {
+        padding-top: 80px;
+        padding-bottom: 50px;
+    }
+}
+.section-ptb-3 {
+    padding-top: 130px;
+    padding-bottom: 30px; 
+    @include desktop {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    @include mobile {
+        padding-top: 80px;
+        padding-bottom: 0;
+    }
+    @include tablet {
+        padding-top: 100px;
+        padding-bottom: 0;
+    }
+}
+.section-ptb-4 {
+    padding-top: 130px;
+    padding-bottom: 200px; 
+    @include mobile {
+        padding-top: 100px;
+        padding-bottom: 90px;
+    }
+}
+.section-ptb-5 {
+    padding-top: 130px;
+    padding-bottom: 80px; 
+    @include mobile {
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+}
+.section-ptb-6 {
+    padding-top: 130px;
+    padding-bottom: 30px; 
+    @include tablet {
+        padding-top: 130px;
+        padding-bottom: 0;
+    }
+    @include mobile {
+        padding-top: 130px;
+        padding-bottom: 0;
+    }
+}
+.section-pb {
+    padding-bottom: 130px;
+    @include desktop {
+        padding-bottom:80px;
+    }
+    @include tablet {
+        padding-bottom:80px;
+    }
+    @include mobile {
+        padding-bottom: 50px;
+    }
+}
+.section-pt {
+    padding-top: 130px;
+}
+.pt-60 {
+    padding-top: 60px;
+}
+header {
+    .container {
+        @include tablet {
+            max-width: 96%;
+        }
+        @include mobile {
+            max-width: 96%;
+        }
+    }
+}
+.translate_30 {
+    transform: translateY(-30%);
+    @include tablet {
+        transform: translateY(0);   
+    }
+    @include mobile {
+        transform: translateY(0);   
+    }
+}
+.translate_34 {
+    transform: translateY(-34%);
+    @include tablet {
+        transform: translateY(0);   
+    }
+    @include mobile {
+        transform: translateY(0);   
+    }
+}
+.button_one {
+    display: inline-block;
+    position: relative;
+    background-color: $hover;
+    border: 0;
+    color: $white;
+    padding: 15px 25px;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    @include mobile {
+        padding: 10px;
+    }
+    &:hover {
+       text-decoration: none;
+       background-color: rgba($hover,.85);
+       color: $white;
+    }
+ }
+ .special-button {
+    display: inline-block;
+    position: relative;
+    background-color: $hover;
+    border: 0;
+    color: $white;
+    padding:16px 80px 16px 16px;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    @include tablet {
+       font-size: 12px;
+      >i {
+          display: none;
+      }
+    }
+    &:hover {
+       text-decoration: none;
+       background-color: rgba($hover,.85);
+       color: $white;
+    }
+ }
+.button_one_alt {
+    display: inline-block;
+    position: relative;
+    background-color: $white;
+    border: 2px solid $hover;
+    color: $hover;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    &:hover {
+       text-decoration: none;
+       background-color: rgba($hover,.85);
+       color: $white;
+       border-color: rgba($hover,.85);
+    }
+ }
+.button_two {
+    display: inline-block;
+    position: relative;
+    background-color: $hover_2;
+    border: 0;
+    color: $white;
+    padding: 14px 35px;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 30px;
+    text-transform: uppercase;
+    box-shadow: 0 .5rem 1rem rgba($hover_2,.35);
+    &:hover {
+       text-decoration: none;
+       background-color: rgba($hover_2,.7);
+       color: $white;
+    }
+ }
+.button_two_plane {
+    display: inline-block;
+    position: relative;
+    background-color: $hover_2;
+    border: 0;
+    color: $white;
+    padding: 12px 25px;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    &:hover {
+       text-decoration: none;
+       background-color: rgba($hover_2,.7);
+       color: $white;
+    }
+ }
+.button_three {
+    display: inline-block;
+    position: relative;
+    background-color: $hover_4;
+    border: 0;
+    color: $white;
+    padding: 10px 25px;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 30px;
+    text-transform: uppercase;
+    @include mobile {
+        padding: 10px;
+    }
+    &:hover {
+       text-decoration: none;
+       background-color: $dark_7;
+       color: $white;
+    }
+ }
+.button_four {
+    display: inline-block;
+    position: relative;
+    background-color: $white;
+    border: 2px solid $hover;
+    color: $hover;
+    padding: 10px 25px;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    cursor: pointer;
+    &.active {
+        background-color: $hover;
+        color: $white;
+    }
+    @include mobile {
+        padding: 10px;
+    }
+    &:hover {
+       text-decoration: none;
+       background-color: $hover;
+       color: $white;
+    }
+ }
+.button_five {
+    display: inline-block;
+    position: relative;
+    background-color: $hover;
+    color: $white;
+    padding: 10px 35px;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    border: 2px solid $hover;
+    cursor: pointer;
+    &.active {
+        background-color: $white;
+        color: $hover;
+    }
+    @include mobile {
+        padding: 10px;
+    }
+    &:hover {
+       text-decoration: none;
+       background-color: $white;
+       color: $hover;
+    }
+ }
+ .button_block {
+    display: block;
+    width: 100%;
+    height: 50px;
+    border: 0;
+    color: $white;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all .4s linear 0s;
+ }
+ .rounded-btn {
+    display: inline-block;
+    position: relative;
+    background-color: $semi_hover_3;
+    border: 0;
+    color: $hover_2;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    border-radius: 50%;
+    transition: all .4s linear 0s;
+    font-size: 15px;
+    font-weight: 400;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-size: 16px;
+    i {
+        color: $hover_2;
+    }
+    &:hover {
+       text-decoration: none;
+       background-color: $hover_2;
+       color: $white;
+       i {
+        color: $white;
+       }
+    }
+ }
+ .theme-list {
+     display: inline-block;
+     ul {
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         li {
+             &:last-child {
+                 a {
+                     padding-bottom: 0;
+                 }
+             }
+            a {
+                display: inline-block;
+                position: relative;
+                padding: 5px;
+                color: $dark_2;
+                transition: all .4s linear 0s;
+                &:hover {
+                    text-decoration: none;
+                    color: $hover;
+                }
+                &:before {
+                    content:"\f058";
+                    font-family: "Font Awesome 5 Free";
+                    font-weight: 900;
+                    padding-right: 5px;
+                    color: $hover;
+                }
+            }
+         }
+     }
+ }
+ .theme-list-2 {
+     display: inline-block;
+     ul {
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         a {
+             display: inline-block;
+             position: relative;
+             padding: 10px;
+             color: $dark_2;
+             transition: all .4s linear 0s;
+             &:hover {
+                 text-decoration: none;
+                 color: $hover_2;
+             }
+             &:before {
+                 content:"\f058";
+                 font-family: "Font Awesome 5 Free";
+                 font-weight: 900;
+                 padding-right: 5px;
+                 color: $hover_2;
+             }
+         }
+     }
+ }
+ .theme-list-3 {
+     display: inline-block;
+     ul {
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         li {
+             position: relative;
+             padding: 10px;
+             color: $dark_2;
+             transition: all .4s linear 0s;
+             font-size: 16px;
+             &:hover {
+              a {
+                text-decoration: none;
+                color: $hover_4;
+              }
+             }
+             &:before {
+                 content:"\f058";
+                 font-family: "Font Awesome 5 Free";
+                 font-weight: 900;
+                 padding-right: 5px;
+                 color: $hover_4;
+             }
+         }
+     }
+ }
+ .theme-list-4 {
+     display: inline-block;
+     ul {
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         li {
+             display: block;
+             position: relative;
+             padding: 10px;
+             color: $dark_2;
+             transition: all .4s linear 0s;
+             font-size: 16px;
+             &:hover {
+              a {
+                text-decoration: none;
+                color: $hover;
+              }
+             }
+             &:before {
+                 content:"\f058";
+                 font-family: "Font Awesome 5 Free";
+                 font-weight: 900;
+                 padding-right: 5px;
+                 color: $hover;
+             }
+         }
+     }
+ }
+
+ .section-title {
+     padding-bottom: 20px;
+    h4 {
+       color: $hover;
+       text-transform: uppercase;
+       font-size: 18px;
+       font-weight: 500;
+    }
+    h2 {
+       color: $dark_2;
+       font-size: 50px;
+       font-family: "Poppins";
+       font-weight: 600;
+       @include mobile {
+           font-size: 40px;
+       }
+    }
+ }
+ .sub-title {
+     font-family: "Poppins";
+     font-weight: 500;
+     font-size: 50px;
+     color: $dark_2;
+ }
+ .sm-sub-title {
+     font-family: "Poppins";
+     font-weight: 600;
+     font-size: 30px;
+     color: $dark_2;
+ }
+ .section-title-2 {
+     padding-bottom: 20px;
+    h4 {
+       color: $hover_2;
+       text-transform: uppercase;
+       font-size: 18px;
+       font-weight: 500;
+    }
+    h2 {
+       color: $dark_2;
+       font-size: 50px;
+       font-family: "Poppins";
+       font-weight: 600;
+       @include mobile {
+           font-size: 40px;
+       }
+    }
+ }
+ .section-title-3 {
+     padding-bottom: 20px;
+    h4 {
+       color: $hover_4;
+       text-transform: uppercase;
+       font-size: 18px;
+       font-weight: 400;
+    }
+    h2 {
+       color: $dark_2;
+       font-size: 50px;
+       font-family: "Poppins";
+       font-weight: 600;
+       @include mobile {
+           font-size: 40px;
+       }
+    }
+ }
+ .section-title-6 {
+     padding-bottom: 20px;
+    h4 {
+       color: $white;
+       text-transform: uppercase;
+       font-size: 18px;
+       font-weight: 600;
+    }
+    h2 {
+       color: $white;
+       font-size: 50px;
+       font-family: "Poppins";
+       font-weight: 600;
+       @include mobile {
+           font-size: 40px;
+       }
+    }
+ }
+ .single-section-title {
+     h2 {
+         display: inline-block;
+         font-size: 50px;
+         color: $dark_2;
+         position: relative;
+         font-family: "Poppins";
+         font-weight: 600;
+         &:after {
+             content:"";
+             position: absolute;
+             left: 0;
+             bottom: -15px;
+             width: 100px;
+             height: 3px;
+             background-color: $hover_2;
+         }
+     }
+     margin-bottom: 50px;
+ }
+ .single-section-title-2 {
+     h2 {
+         display: inline-block;
+         font-size: 50px;
+         color: $dark_2;
+         position: relative;
+         font-family: "Poppins";
+         font-weight: 600;
+         &:after {
+             content:"";
+             position: absolute;
+             left: 0;
+             bottom: -15px;
+             width: 100px;
+             height: 3px;
+             background-color: $hover_4;
+         }
+     }
+     margin-bottom: 50px;
+ }
+ .section-heading {
+     position: relative;
+     font-size: 35px;
+     color: $dark_2;
+     font-family: "Poppins";
+     font-weight: 500;
+     &:before {
+         content: "";
+         position: absolute;
+         width: 100%;
+         height: 5px;
+         top: 50%;
+         left: 40%;
+         background-color: $hover;
+         @include tablet {
+             left: 48%;
+         }
+         @include desktop {
+             left: 40%;
+         }
+         @include mobile {
+             left: 50%;
+         }
+     }
+ }
+ .overlay {
+     position: relative;
+     &:before {
+         content:"";
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba($black,.45);
+     }
+ }
+ .overlay_2 {
+     position: relative;
+     &:before {
+         content:"";
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba($dark_2,.8);
+     }
+ }
+ .overlay_3 {
+     position: relative;
+     &:before {
+         content:"";
+         position: absolute;
+         left: 0;
+         top: 0;
+         width: 100%;
+         height: 100%;
+         background-color: rgba($white,.8);
+         padding: 25px;
+         border-radius: 25px;
+     }
+ }
+ .border-2 {
+     border: 2px solid $hover;
+     transition: all .4s linear 0s;
+ }
+ .border-3 {
+     border: 2px solid $hover_2;
+     transition: all .4s linear 0s;
+ }
+ .border-4 {
+     border: 2px solid $semi_hover_5;
+     transition: all .4s linear 0s;
+ }
+
+ .border-5 {
+     border: 2px solid $semi_hover_3;
+     transition: all .4s linear 0s;
+ }
+ .border-6 {
+     border: 2px solid $semi_white_3;
+     transition: all .4s linear 0s;
+ }
+ .border-7 {
+     border: 5px solid $dark_13;
+     transition: all .4s linear 0s;
+ }
+ .border-8 {
+    border: 5px solid $semi_hover_5;
+    transition: all .4s linear 0s;
+}
+ .border-bottom-2 {
+     border-bottom: 2px solid $hover;
+ }
+ .button_icon {
+   i {
+       font-size: 20px;
+       padding-left: 5px;
+   }
+ }
+ .mb-3d-5 {
+    @include desktop {
+        padding-bottom: 3rem;
+    }
+    @include tablet {
+        padding-bottom: 3rem;
+    }
+    @include mobile {
+        padding-bottom: 3rem;
+    }
+ }
+ .mt-3d-5 {
+    @include desktop {
+        padding-top: 3rem;
+    }
+    @include tablet {
+        padding-top: 3rem;
+    }
+    @include mobile {
+        padding-top: 3rem;
+    }
+ }
+ .mb-xs-5 {
+
+    @include tablet {
+        padding-bottom: 3rem;
+    }
+    @include mobile {
+        padding-bottom: 3rem;
+    }
+ }
+ .mb-mob-5 {
+    @include mobile {
+        padding-bottom: 3rem;
+    }
+ }
+ .mb-xs-4 {
+
+    @include tablet {
+        padding-bottom: 2rem;
+    }
+    @include mobile {
+        padding-bottom: 2rem;
+    }
+ }
+ .my-xs-5 {
+
+    @include tablet {
+        margin: 5rem 0;
+    }
+    @include mobile {
+        margin: 5rem 0;
+    }
+ }
+ .my-xs-4 {
+
+    @include tablet {
+        margin: 4rem 0;
+    }
+    @include mobile {
+        margin: 4rem 0;
+    }
+ }
+ .mb-bd-5 {
+
+    @include desktop {
+        padding-bottom: 3rem;
+    }
+    @include tablet {
+        padding-bottom: 3rem;
+    }
+    @include mobile {
+        padding-bottom: 3rem;
+    }
+ }
+ .mt-xs-5 {
+
+    @include tablet {
+        padding-top: 3rem;
+    }
+    @include mobile {
+        padding-top: 3rem;
+    }
+ }
+
+ .shadow-theme-lg {
+     box-shadow: 0 1rem 3rem 1rem rgba(20,189,238,.175)!important;
+ }
+ .height-470 {
+     height: 470px;
+ }
+ .pr-120-lg {
+    @include large {
+        padding-right: 120px;
+    }
+ }
+ .translate_50 {
+     transform: translateY(50%) !important;
+ }
+ .widget-title {
+     display: inline-block;
+     position: relative;
+     color: $dark_2;
+     font-size: 20px;
+     margin: 0;
+     &:before {
+         content:"";
+         position: absolute;
+         left: 0;
+         bottom: -5px;
+         width: 70px;
+         height: 3px;
+         background-color: $hover;
+     }
+ }
+ .pagination-wrapper {
+     ul {
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         li {
+             display: inline-block;
+            
+             &:last-child {
+                 a {
+                    margin-right: 0;
+                 }
+                
+             }
+             a {
+                 display: inline-block;
+                 margin-right: 25px;
+                 width: 50px;
+                 height: 50px;
+                 border-radius: 50%;
+                 background-color: $semi_white_2;
+                 color: $dark_5;
+                 text-align: center;
+                 line-height: 50px;
+                 transition: all .4s linear 0s;
+                 &:hover {
+                     background-color: $hover;
+                     color: $white;
+                     text-decoration: none;
+                 }
+             }
+         }
+     }
+     margin-top: 60px;
+ }
+ .link_btn {
+     color: $hover;
+     font-weight: 500;
+     text-transform: uppercase;
+     font-size: 15px;
+     transition: all .4s linear 0s;
+     i {
+        transition: all .4s linear 0s;
+     }
+     &:hover {
+         text-decoration: none;
+         color: $hover;
+         i {
+             padding-left: 5px;
+         }
+     }
+ }
+ .tags-list {
+     p {
+         display: inline-block;
+         margin-bottom: 0;
+         color: $dark_2;
+         font-size: 16px;
+         font-weight: 500;
+         padding-right: 5px;
+     }
+     ul {
+         margin: 0;
+         padding: 0;
+         display: inline-block;
+         li{
+             display: inline-block;
+             margin-right: 5px;
+             a {
+                 position: relative;
+                 color: $dark_5;
+                 font-size: 16px;
+                 transition: all .4s linear 0s;
+                 &:hover {
+                     text-decoration: none;
+                     color: $hover;
+                 }
+                 &:after {
+                     content:" , ";
+                     font-size: 20px;
+                 }
+             }
+             &:last-child {
+                 a {
+                     &:after {
+                         content: none;
+                     }
+                 }
+             }
+         }
+     }
+ }
+ .share-option {
+     p {
+         display: inline-block;
+         margin-bottom: 0;
+         color: $dark_2;
+         font-weight: 500;
+         padding-right: 5px;
+         @include mobile {
+             padding-right: 0;
+             padding-left: 5px;
+             font-size: 14px;
+         }
+     }
+     ul {
+         margin: 0;
+         padding: 0;
+         list-style: none;
+         display: inline-block;
+         li {
+             display: inline-block;
+             &:last-child {
+                 a {
+                     margin-right: 0;
+                 }
+             }
+             a {
+                display: inline-block;
+                width: 40px;
+                height: 40px;
+                line-height: 40px;
+                margin-right: 10px;
+                text-align: center;
+                background-color: $white;
+                border: 2px solid $hover;
+                border-radius: 50%;
+                color: $hover;
+                transition: all .4s linear 0s;
+                @include mobile {
+                    margin-right: 0;
+                }
+                &:hover {
+                    background-color: $hover;
+                    color: $white;
+                }
+             }
+         }
+     }
+ }
+ .mb-xs-2 {
+     @include desktop {
+         margin-bottom: 2rem;
+     }
+     @include tablet {
+         margin-bottom: 2rem;
+     }
+     @include mobile {
+         margin-bottom: 2rem;
+     }
+ }
+ .mb-xs-3 {
+     @include desktop {
+         margin-bottom: 3rem;
+     }
+     @include tablet {
+         margin-bottom: 3rem;
+     }
+     @include mobile {
+         margin-bottom: 3rem;
+     }
+ }
+ .mb-mob-3 {
+     @include mobile {
+         margin-bottom: 3rem;
+     }
+ }

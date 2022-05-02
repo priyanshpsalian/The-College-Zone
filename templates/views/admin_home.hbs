@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COLLEGE ZONE</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/buybook_index.css">
+    <link rel="stylesheet" href="css1/ours.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    {{> navbar_admin}}
+    <!-- End Header -->
+    <!-- Start Slider -->
+    <section class="slider-section swiper-container" data-aos="fade-in">
+        <div class="swiper-wrapper">
+            {{!-- <div class="slider-area height-700 swiper-slide overlay" style="background-image:url(images/the-university-of-zurich-2021-08-26-18-12-06-utc.jpg)"> --}}
+                {{!-- <div class="container">
+                    <div class="row">
+                        <div class="col-md-9">
+                            <div class="slider-content text-white pb-5 mb-5">
+                                <h2 class="display-3">Better Website For a Better World</h2>
+                                <p>Best Education  In 2022</p>
+                                <a href="#" class="button_one mt-4">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div> --}}
+            {{!-- </div> --}}
+            <div class="slider-area height-700 swiper-slide overlay" style="background-image:url(images/the-university-of-zurich-2021-08-26-18-12-06-utc.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="slider-content text-white pb-5 mb-5">
+                                <h2 class="display-3">Welcome Committte Head</h2>
+                                <p>Market your committe</p>
+                                <a href="contactus" class="button_one mt-4">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {{!-- <div class="slider-area height-700 swiper-slide overlay" style="background-image:url(images/slider_bg_3.jpg)">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <div class="slider-content text-white pb-5 mb-5">
+                                <h2 class="display-3">Maintaince Educational Value</h2>
+                                <p>Best Education Theme In 2019</p>
+                                <a href="#" class="button_one mt-4">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> --}}
+        </div>
+        <div class="swiper-pagination"></div>
+    </section>
+    <!-- End Slider -->
+    <!-- Start Services -->
+    <section class="services-section translate_34">
+        <div class="services-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-xs-5 mt-xs-5" data-aos="fade-in" data-aos-delay="200">
+                        <div class="single-service default_bg text-center text-white py-5 px-4">
+                            <div class="service-icon">
+                                <img src="images/service_icon_02.png" alt="service one" class="img-fluid">
+                            </div>
+                            <div class="service-text">
+                                <h4>Posts</h4>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                                <a href="upload2">Read More <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    {{!-- <div class="col-md-4 mb-xs-5" data-aos="fade-in" data-aos-delay="400">
+                        <div class="single-service hover_bg text-center text-white py-5 px-4">
+                            <div class="service-icon">
+                                <img src="images/service_icon_01.png" alt="service one" class="img-fluid">
+                            </div>
+                            <div class="service-text">
+                                <h4>Confess Something</h4>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                                <a href="confess">Read More <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 mb-xs-5" data-aos="fade-in" data-aos-delay="600">
+                        <div class="single-service default_bg text-center text-white py-5 px-4">
+                            <div class="service-icon">
+                                <img src="images/service_icon_03.png" alt="service one" class="img-fluid">
+                            </div>
+                            <div class="service-text">
+                                <h4>Sell Books</h4>
+                                <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                                <a href="sell_book">Read More <i class="fas fa-angle-right"></i></a>
+                            </div>
+                        </div>
+                    </div> --}}
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Services -->
+    <!-- Start Welcome Section -->
+    <section class="welcome-section section-pb" data-aos="fade-in">
+        <div class="welcome-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-3d-5 px-0">
+                        <div class="half_column_image">
+                            <img alt="Displaying Amigos - Working from Home.png" src="https://lh3.googleusercontent.com/fife/AAWUweXCJKJ1M5t1oycyOHgVvICyfXecthYHF5rSefPVSJ5W86SqJedcMQmm7NDSXALTaTdqNrE_lulrykqLy19JGs8w43-taWxRR3cqbRMpwQKWMehOrazeNBM9jzOI1EMlW4afPN2kF7gADX_ASq-TiwE2QNx4k9oniMLMSny2YTwmths3SuQwZ3lnMsYTZuh6X7sOHMwMJoA6tH4NVa5IiZvMQFrMyoep4kNdeHHZe_E_Uwa2ECxctoWOXCJuJxWJbgL7CcXijxHA_VR_IA8Dedk0_gJKA9SP4pr_XgUnvHAnwqSXsYVMR1T-3HdJjI_3-kYAqPg7cyP6qJr05nj4MAwO7705PA6H7qHqfTOeUSeT6jshE-8P6u8aPACEjVVCVfYCpYHzjsunyTA4Vb2RzOZSh8FTbhenbuyxZ4fQbFX0V01w_n3C00AYFlhNfjto7yKMWBXwZUvxsKrhVWJ6HCzGuVygttkdh3dVV7fk4CLlaeydtu2jOukuWhlEqfbGegQptgQtoEDDcbOpHXRu_cUhlX2GeJzS0xfCxcDLtNHyCVqtw49QnWGj6DEQYDMjrNJqsCi2FbGHMVfyyDiiNxcgW3SBRnQQtzbr4uEwa5mcEUj0GAwCFWpZOW9ovPzDOFxf76USN_NMIHDVnESJlLstpaX54667q6JcU5Ouo8PE2Tn6EOoNDAhnSLXyLUpDWd7nZQPnt-QcVUZtt6QbaTUyKI21M1xjZ4LAaVB6AGg6ZfWsuVOVJxv1A5jfudj_qPYAGzM8Tw4kkOl89rVDNkmmODb3MAlOo6Wh4ermzdMf1GMl62-X9s6_Ag=w1350-h585" alt="welcome" class="img-fluid equal-height">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 equal-height">
+                        <div class="half_column_content">
+                            <h2 class="sub-title"> <br> Welcome To <br>CLUB ZONE</h2>
+                            <p>Club Zone provides various features which are helpful to all the students of TSEC during their college years.</p>
+                            <p>Club Zone provides you with</p>
+                            <div class="theme-list">
+                                <ul>
+                                    <li><a href="#">Notification of <br> &nbsp&nbsp&nbsp&nbsp committee events</a></li>
+                                    <li><a href="#">Paid or Free E-Books</a></li>
+                                    <li><a href="#">Buy or Sell used books</a></li>
+                                </ul>
+                            </div>
+                            <div class="theme-list ml-xl-5">
+                                <ul>
+                                    <li><a href="#">A place to find your <br> &nbsp&nbsp&nbsp&nbsp dream internship</a></li>
+                                    <li><a href="#">Important dates</a></li>
+                                    <li><a href="#">Platform for asking doubts</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Welcome Section -->
+    <!--Start Department -->
+    {{!-- <div class="page-wrapper section-ptb semi_dark_bg">
+        <div class="container">
+			<div class="row">
+				<div class="col-md-12">
+					<div class="section-title text-center" data-aos="fade-in">
+						<h4>Our Departments</h4>
+						<h2>Popular Departments</h2>
+					</div>
+				</div>
+			</div>		
+            <div class="row">
+                <div class="col-lg-4 col-md-6 py-3" data-aos="fade-up" data-aos-delay="200">
+                   <div class="single-item">
+                        <div class="item-icon">
+                            <img class="img-fluid" src="images/icon_01.png" alt="icon">
+                        </div>
+                        <div class="item-text">
+                            <h4><a href="#">Electrical Engineering</a></h4>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                            <a href="#" class="link_btn">Read More <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                   </div>
+               </div>
+                <div class="col-lg-4 col-md-6 py-3" data-aos="fade-up" data-aos-delay="200">
+                   <div class="single-item">
+                        <div class="item-icon">
+                            <img class="img-fluid" src="images/icon_02.png" alt="icon">
+                        </div>
+                        <div class="item-text">
+                            <h4><a href="#">Microbio Engineering</a></h4>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                            <a href="#" class="link_btn mt-2">Read More <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                   </div>
+               </div>
+                <div class="col-lg-4 col-md-6 py-3" data-aos="fade-up" data-aos-delay="200">
+                   <div class="single-item">
+                        <div class="item-icon">
+                            <img class="img-fluid" src="images/icon_03.png" alt="icon">
+                        </div>
+                        <div class="item-text">
+                            <h4><a href="#">Computer Engineering</a></h4>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                            <a href="#" class="link_btn mt-2">Read More <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                   </div>
+               </div>
+                <div class="col-lg-4 col-md-6 py-3" data-aos="fade-up" data-aos-delay="200">
+                   <div class="single-item">
+                        <div class="item-icon">
+                            <img class="img-fluid" src="images/icon_04.png" alt="icon">
+                        </div>
+                        <div class="item-text">
+                            <h4><a href="#">Civil Engineering</a></h4>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                            <a href="#" class="link_btn mt-2">Read More <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                   </div>
+               </div>
+                <div class="col-lg-4 col-md-6 py-3" data-aos="fade-up" data-aos-delay="200">
+                   <div class="single-item">
+                        <div class="item-icon">
+                            <img class="img-fluid" src="images/icon_05.png" alt="icon">
+                        </div>
+                        <div class="item-text">
+                            <h4><a href="#">Textile Engineering</a></h4>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                            <a href="#" class="link_btn mt-2">Read More <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                   </div>
+               </div>
+                <div class="col-lg-4 col-md-6 py-3" data-aos="fade-up" data-aos-delay="200">
+                   <div class="single-item">
+                        <div class="item-icon">
+                            <img class="img-fluid" src="images/icon_06.png" alt="icon">
+                        </div>
+                        <div class="item-text">
+                            <h4><a href="#">Biomedical Engineering</a></h4>
+                            <p>The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using.</p>
+                            <a href="#" class="link_btn mt-2">Read More <i class="fa fa-angle-right"></i> </a>
+                        </div>
+                   </div>
+               </div>
+            </div>
+            <div class="row" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-md-12">
+                    <div class="load-more-button pt-4 mx-auto text-center">
+                        <a href="#" class="button_five">View More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> --}}
+    <!-- End Department -->
+	<!-- Start Featured Section -->	
+    <section class="featured-section section-ptb" data-aos="fade-up">
+        <div class="featured-area show_navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title mb-4">
+                            <h4>Best Books</h4>
+                            <h2>Featured Books</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+
+                    <div id="outerDiv" class="row">
+                    <template id="template">
+    
+                        <div class="col-lg-4 col-md-6 filter branding mb-5 template1">
+                            <div class="single-featured-5  bg-white text-center template2">
+                                <div class="feature-image thumbnail">
+                                    <img src="" alt="Featured" class="thumbnail1">
+                                    <div class="product-price-4 priceouter">
+                                        <span>Rs. </span><span class="priceInner">DUMMY</span>
+                                    </div>
+                                </div>
+                                <div class="featured-text-and-info border-6 details">
+                                    <div class="feature-content px-2 pt-3 desc">
+                                        <!-- <h5 class="title-"> -->
+                                            <a href="#" class="title- h5">DUMMY</a>
+                                            <br>
+                                        <!-- </h5> -->
+                                        <p class="description">DUMMY</p>
+                                    </div>
+                                    <div class="feature-status-wrapper border-top extra">
+                                        <div class="feature-status-3 px-2 py-1 extra1">
+                                            <span><span>Sold by : </span><span class="soldby"></span></span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Section -->	
+    <!-- Start Popup Videos Section -->
+    {{!-- <section class="video-section" data-aos="fade-up">
+        <div class="video-popup-area default_bg section-ptb">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 mb-3d-5" data-aos="fade-in-left" data-aos-delay="200">
+                        <div class="half_column_image overlay">
+                            <img src="images/video_popup.jpg" alt="Video Image" class="img-fluid image-link">
+                            <div class="video-play-btn"><a data-fancybox href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" class="video-play-link"><i class="fas fa-play-circle"></i></a></div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-in-right" data-aos-delay="400">
+                        <div class="video_popup_content text-white">
+                            <h2 class="sub-title text-white mb-3">World Best Univercity</h2>
+                            <p>Smply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</p>
+                            <p>Smply dummy text of the printing and typesetting industry. Lorem Ipsum Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur, deserunt.</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate nisi tenetur ratione magni ut at expedita provident, cupiditate.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row mt-2" data-aos="fade-up">
+                    <div class="col-md-3 col-sm-6 mb-xs-2">
+                        <div class="single-countdown">
+                            <span class="counter">60</span>
+                            <p>Teachers</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-xs-2">
+                        <div class="single-countdown">
+                            <span class="counter">800</span>
+                            <p>Students</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-xs-2">
+                        <div class="single-countdown">
+                            <span class="counter">37</span>
+                            <p>Courses</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 mb-xs-2">
+                        <div class="single-countdown">
+                            <span class="counter">19</span>
+                            <p>National Awards</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!-- End Popup Videos Section -->
+    <!-- Start Our Team Carousel -->
+    {{!-- <section class="team-section section-ptb" data-aos="fade-up">
+        <div class="our-team-area show_navigation">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title mb-4">
+                            <h4>Our Teachers</h4>
+                            <h2>Best Certified Faculty</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="our-team-carousel owl-carousel">
+                            <div class="single-team">
+                                <div class="member-image">
+                                    <img src="images/member_01.jpg" alt="team member" class="img-fluid">
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info default_bg">
+                                    <div class="designation">
+                                        <h6>Mitchel</h6>
+                                        <span>CEO & Founder</span>
+                                    </div>
+                                    <a href="#">View Details <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="single-team">
+                                <div class="member-image">
+                                    <img src="images/member_02.jpg" alt="team member" class="img-fluid">
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info default_bg">
+                                    <div class="designation">
+                                        <h6>Mark Parker</h6>
+                                        <span>Senior Teacher</span>
+                                    </div>
+                                    <a href="#">View Details <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="single-team">
+                                <div class="member-image">
+                                    <img src="images/member_03.jpg" alt="team member" class="img-fluid">
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info default_bg">
+                                    <div class="designation">
+                                        <h6>Selina Gomej</h6>
+                                        <span>Physics Teacher</span>
+                                    </div>
+                                    <a href="#">View Details <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="single-team">
+                                <div class="member-image">
+                                    <img src="images/member_01.jpg" alt="team member" class="img-fluid">
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info default_bg">
+                                    <div class="designation">
+                                        <h6>Mitchel</h6>
+                                        <span>CEO & Founder</span>
+                                    </div>
+                                    <a href="#">View Details <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="single-team">
+                                <div class="member-image">
+                                    <img src="images/member_02.jpg" alt="team member" class="img-fluid">
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info default_bg">
+                                    <div class="designation">
+                                        <h6>Selina Gomej</h6>
+                                        <span>Physics Teacher</span>
+                                    </div>
+                                    <a href="#">View Details <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                            <div class="single-team">
+                                <div class="member-image">
+                                    <img src="images/member_03.jpg" alt="team member" class="img-fluid">
+                                    <div class="social-profile">
+                                        <ul>
+                                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                            <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="member-info default_bg">
+                                    <div class="designation">
+                                        <h6>Selina Gomej</h6>
+                                        <span>Physics Teacher</span>
+                                    </div>
+                                    <a href="#">View Details <i class="fa fa-angle-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!-- End Our Team Carousel -->
+    <!-- Start Events Section -->
+    <section class="events-section section-ptb semi_dark_bg" data-aos="fade-up">
+        <div class="events-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center mb-4">
+                            <h4>Our Events</h4>
+                            <h2>Upcoming Events</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-3d-5" data-aos="fade-up" data-aos-delay="300">
+                        <div class="event-content-one border">
+                            <div class="event-image">
+                                <img src="/adm.jpg"alt="event image" class="img-fluid">
+                                <div class="events-info bg-white">
+                                    <div class="single-event-data">
+                                        <p><i class="fas fa-calendar-alt"></i> 25 June, 22</p>
+                                    </div>
+                                    <div class="single-event-data">
+                                        <p><i class="fa fa-clock"></i> 8:00 AM - 5:00 PM</p>
+                                    </div>
+                                    <div class="single-event-data">
+                                        <p><i class="fas fa-map-marker-alt"></i> NewYork, USA</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="event-text p-4 bg-white">
+                                <h2><a href="#">Addmisions for BE are open for Batch 2025</a></h2>
+                                <p>Thadomal Shahani Engineering College is now open for addmission of 2025. Students can enroll by gov cap rounds or by instution level  rounds.</p>
+                                
+                        
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="events-list">
+                            <div class="single-event mb-4">
+                                <div class="event-date">
+                                    <span>19</span>
+                                    <p>April</p>
+                                </div>
+                                <div class="event-content">
+                                    <h5><a href="#">NSS INTERVIEWS</a></h5>
+                                    <div class="event-meta">
+                                        <div class="single-meta">
+                                            <p> <i class="fa fa-clock"></i> Deadline 9pm</p>
+                                        </div>
+                                        <div class="single-meta">
+                                            <p><i class="fas fa-map-marker-alt"></i>TSEC, Mumbai</p>
+                                        </div>
+                                    </div>
+                                    <p>NSS Interview have started, to apply fill the form in notice tab. Las date of application is 19th April till 9PM.</p>
+                                </div>
+                            </div>
+                            <div class="single-event mb-4">
+                                <div class="event-date">
+                                    <span>25</span>
+                                    <p>April</p>
+                                </div>
+                                <div class="event-content">
+                                    <h5><a href="#">IETE INTERVIEWS</a></h5>
+                                    <div class="event-meta">
+                                        <div class="single-meta">
+                                            <p> <i class="fa fa-clock"></i>Deadline 9pm</p>
+                                        </div>
+                                        <div class="single-meta">
+                                            <p> <i class="fa fa-location"></i> TSEC, Mumbai</p>
+                                        </div>
+                                    </div>
+                                    <p>Applications for IETE Scoms are out. Last date of Application is 25th of April till 9PM.</p>
+                                </div>
+                            </div>
+                            <div class="single-event">
+                                <div class="event-date">
+                                    <span>01</span>
+                                    <p>May</p>
+                                </div>
+                                <div class="event-content">
+                                    <h5><a href="#">VIVAS BEGINS FOR SE!!</a></h5>
+                                    <div class="event-meta">
+                                        <div class="single-meta">
+                                            <p> <i class="fa fa-clock"></i> Deadline 9pm</p>
+                                        </div>
+                                        <div class="single-meta">
+                                            <p> <i class="fa fa-location"></i> TSEC, Mumbai</p>
+                                        </div>
+                                    </div>
+                                    <p>VIVAS for SE are begining from 1st of may. All the best to all the SE's.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Events Section -->
+    <!-- Start Testimonials Section -->
+    <section class="testimonials-section section-ptb" data-aos="fade-up">
+        <div class="testimonials-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center mb-4">
+                            <h4>Testimonials</h4>
+                            <h2>Our Student Saying...</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="testimonials-wrapper owl-carousel">
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                            <div class="single-testimonial border-2 p-4">
+                                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla sint occaecat cupidatat non proident, sunt in culpa.</p>
+                                <div class="testimonial-referance">
+                                    <p><strong>Jhon Smith; </strong> CEO & Founder</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Testimonials Section -->
+    <!-- Start Blog Section -->
+    {{!-- <section class="blog-section semi_dark_bg section-ptb" data-aos="fade-up">
+        <div class="blog-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center mb-4">
+                            <h4>Blog Posts</h4>
+                            <h2>Latest News</h2>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 mb-3d-5" data-aos="fade-up" data-aos-delay="200">
+                        <div class="big-blog-area border bg-white">
+                            <div class="blog-thumb">
+                                <a href="#"><img src="images/big_blog.jpg" alt="big blog" class="img-fluid"></a>
+                            </div>
+                            <div class="blog-content p-4">
+                                <div class="blog-meta">
+                                    <span>Posts By <a href="#">Admin</a></span> <span class="seperator">|</span>
+                                    <span>29 April, 2020</span>
+                                </div>
+                                <div class="blog-text">
+                                    <h3><a href="#">Most unusual uses of artificial intelli gence projects.</a></h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
+                                    <a href="#">Read More <i class="fas fa-long-arrow-alt-right"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6" data-aos="fade-up" data-aos-delay="400">
+                        <div class="blog-lists-wrapper">
+                            <div class="single-blog-wrapper">
+                                <div class="blog-thumb pr-4">
+                                    <a href="#"><img src="images/blog_01.jpg" alt="blog"></a>
+                                </div>
+                                <div class="blog-content-wrapper">
+                                    <h4><a href="#">Most unusual uses of artificial intelli gence projects.</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, cteturadipiscing elit, sed do eiusmod tempor. ipsum dolor.</p>
+                                    <div class="post-meta"><span> Posted on 25 March, 2019</span></div>
+                                </div>
+                            </div>
+                            <div class="single-blog-wrapper">
+                                <div class="blog-thumb pr-4">
+                                    <a href="#"><img src="images/blog_02.jpg" alt="blog"></a>
+                                </div>
+                                <div class="blog-content-wrapper">
+                                    <h4><a href="#">Most unusual uses of artificial intelli gence projects.</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, cteturadipiscing elit, sed do eiusmod tempor. ipsum dolor.</p>
+                                    <div class="post-meta"><span> Posted on 25 March, 2019</span></div>
+                                </div>
+                            </div>
+                            <div class="single-blog-wrapper">
+                                <div class="blog-thumb pr-4">
+                                    <a href="#"><img src="images/blog_03.jpg" alt="blog"></a>
+                                </div>
+                                <div class="blog-content-wrapper">
+                                    <h4><a href="#">Most unusual uses of artificial intelli gence projects.</a></h4>
+                                    <p>Lorem ipsum dolor sit amet, cteturadipiscing elit, sed do eiusmod tempor. ipsum dolor.</p>
+                                    <div class="post-meta"><span> Posted on 25 March, 2019</span></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> --}}
+    <!-- End Blog Section -->
+    <!-- Start Footer -->
+    <footer data-aos="fade-up">
+        <div class="footer-area default_bg">
+            <div class="footer-top section-ptb">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-3 col-md-6 mb-xs-5">
+                            <div class="single_widget">
+                                <div class="address-widget">
+                                    <div class="footer-logo">
+                                        <a href="index.html"><img src="images/footer_logo.png" alt="" class="img-fluid"></a>
+                                    </div>
+                                    <p>900 Lucerne Station Road Terrace, Orlando, FL 32806, USA contact@eduaid.com</p>
+                                    <span>+892 5555 444</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-3d-5">
+                            <div class="single_widget">
+                                <h3>Useful Links</h3>
+                                <div class="widget-list">
+                                    <ul>
+                                        <li><a href="#">About Us</a></li>
+                                        <li><a href="#">Our Instructors</a></li>
+                                        <li><a href="#">Courses</a></li>
+                                        <li><a href="#">History</a></li>
+                                        <li><a href="#">Privacy Policy</a></li>
+                                        <li><a href="#">Service Plus</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 mb-xs-5">
+                            <div class="single_widget">
+                                <h3>Our Services</h3>
+                                <div class="widget-list">
+                                    <ul>
+                                        <li><a href="#">CSE Engeering</a></li>
+                                        <li><a href="#">Graduation</a></li>
+                                        <li><a href="#">Courses</a></li>
+                                        <li><a href="#">Admission</a></li>
+                                        <li><a href="#">Internation</a></li>
+                                        <li><a href="#">Faqs</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6">
+                            <div class="single_widget">
+                                <h3>Latest News</h3>
+                                <div class="widget-item">
+                                    <div class="widget-image">
+                                        <a href="#"><img src="images/blog_01.jpg" alt="blog one" /></a>
+                                    </div>
+                                    <div class="widget-content">
+                                        <h5><a href="#">7 Step Social Media Marke ting Strategy</a></h5>
+                                        <div class="widget-meta">
+                                            <span>05 Jan 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="widget-item">
+                                    <div class="widget-image">
+                                        <a href="#"><img src="images/blog_02.jpg" alt="blog one" /></a>
+                                    </div>
+                                    <div class="widget-content">
+                                        <h5><a href="#">7 Step Social Media Marke ting Strategy</a></h5>
+                                        <div class="widget-meta">
+                                            <span>05 Jan 2019</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-wrapper border-top py-3">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="footer-bottom">
+                                <div class="copyright-text">
+                                    <p>Eduaid 2019. All Rights Reserved.</p>
+                                </div>
+                                <div class="social-accounts">
+                                    <ul>
+                                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-top">
+            <div class="scroll-icon">
+                <i class="fa fa-angle-up"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/buybook_index.js"></script>
+</body>
+
+</html>

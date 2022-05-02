@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Eduaid Responsive Html5 Template</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/buybook_index.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    {{> navbar_admin}}
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+
+    <section class="hero-section height-490 aos-init overlay aos-animate mt-1" style="background-image: url(https://thumbs.dreamstime.com/b/uploading-upload-data-download-information-concept-70985291.jpg);
+    height: 400px;" data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-3"></h1>
+                            <div class="page-breadcrumb">
+                                {{!-- <p>To get benifit of various features register now</p> --}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!--Start Page -->
+    <div class="page-wrapper pt-5" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-10 mx-auto">
+                    <div class="apply-wrapper">
+                        <h2>Upload Post</h2>
+                        <div class="apply_form bg_dark_9 p-5">
+                            <form action="/upload" method="post" enctype="multipart/form-data">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="user_first_name">Title</label>
+                                            <input type="text" type="text" name="firstname" id="firstname" required
+                                                class="form-control" placeholder="Title" />
+
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="user_last_name">Registration link</label>
+                                            <input class="form-control" type="text" name="email" id="email"
+                                                placeholder="Registration link" required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="user_last_name"> Description</label>
+                                            <input class="form-control" type="text" name="description" id="description"
+                                                required placeholder="Description" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="user_last_name">Registration End Date</label>
+                                            <input type="date" name="age" id="age" required class="form-control"
+                                                placeholder="MM/DD/YY">
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="user_phone_number">Phone Number</label>
+                                            <input type="text" name="phone" id="phone" required class="form-control"
+                                                placeholder="Phone Number">
+                                        </div>
+                                    </div>
+                                    {{!-- <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="gender">Important:</label>
+                                            <input type="radio" class="form-control" name="gender" value="YES" />
+                                            <label>Yes</label>
+                                            <input type="radio" class="form-control" name="gender" value="NO" />
+                                            <label>No</label>
+                                            <input type="radio" class="form-control" name="gender" value="MODERATE" />
+                                            <label>Moderate</label>
+
+                                            <label for="gender">Important:</label>
+                                        </div>
+                                    </div> --}}
+                                    <div class="col-md-6">
+                                        <div class="form-group mb-4">
+                                            <label for="gender" style="font-size: larger;">Importance</label>
+                                            <div class="form-check mt-1">
+                                                <input class="form-check-input" type="radio" name="gender" value="HIGH"
+                                                    style="height: 16px;">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                    High
+                                                </label>
+                                            </div>
+                                            <div class="form-check mt-1">
+                                                <input class="form-check-input" type="radio" name="gender"
+                                                    value="MODERATE" style="height: 16px;">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    Moderate
+                                                </label>
+                                            </div>
+                                            <div class="form-check mt-1">
+                                                <input class="form-check-input" type="radio" name="gender" value="LOW"
+                                                    style="height: 16px;">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                    Low
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="user_email">Include more links</label>
+                                            <input type="text" class="form-control" name="lastname" id="lastname"
+                                                required placeholder="Extra links">
+                                        </div>
+                                    </div>
+
+
+                                    {{!-- <div class="col-md-6">
+                                        <div class="form-group">
+                                            <button id="login">
+                                                Upload Files to Drive
+                                            </button>
+                                        </div>
+                                    </div> --}}
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <label for="user_last_name">Upload image</label>
+                                            {{!-- <input class="form-control" type="text" name="link" id="link" required
+                                                placeholder="Drive Link" required> --}}
+                                            <input class="mt-3 h6" type="file" id="image" name="image"  required>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-12 mx-auto text-center">
+                                        <button type="submit" class="button_one mt-3">Submit Form</button>
+                                    </div>
+                                </div>
+
+                                {{!-- <input type="file" name="image" id="image"> --}}
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Page -->
+    <!-- Start Footer -->
+    {{> indexFooter}}
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

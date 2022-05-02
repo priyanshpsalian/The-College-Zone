@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>College Zone: Books </title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="css1/font-awesome.min.css">
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    
+    {{> navbar_user}}
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+    <section class="hero-section height-490 aos-init overlay aos-animate" style="background-image: url(https://assets.website-files.com/5e4ef646507f139934406108/5e52e6e633d36830153b6149_tradeshow_books_blog.jpeg);
+    height: 60vh" data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-3">Sell books</h1>
+                            <div class="page-breadcrumb">
+                                <p>Sell your unavailing books to the juniors and sperad happiness in the community</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!--Start Page -->
+    <div class="page-wrapper py-5" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <div class="row mx-auto text-center">
+                <div class="col-md-10 mx-auto">
+                    <div class="apply-wrapper">
+                        <h2>Upload Post</h2>
+
+                        <form action="/sell_book" method="post" enctype="multipart/form-data" class="apply_form bg_dark_9 p-5">
+                            {{!-- <div class="row mx-auto text-center">
+                                
+
+                            </div> --}}
+                            <div class="row">
+                                <div class="col-md-6 mx-auto text-center">
+                                    <div class="form-group mx-auto text-center">
+                                        <label for="user_first_name">Title</label>
+                                        <input type="text" name="title" id="title" required class="form-control"
+                                            placeholder="Title" />
+
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mx-auto text-center">
+                                    <div class="form-group mx-auto text-center">
+                                        <label for="user_last_name"> Description</label>
+                                        <input class="form-control" type="text" name="discription" id="discription"
+                                            required placeholder="Description" required>
+                                    </div>
+                                </div>
+                                
+                            </div>
+
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="user_email">Sold By</label>
+                                <input type="text" class="form-control" name="sold_by" id="sold_by" required
+                                    placeholder="Sold By">
+                            </div>
+                        </div>
+                        <div class="col-md-6 mx-auto text-center">
+                                    <div class="form-group">
+                                        <label for="user_phone_number">Phone Number</label>
+                                        <input type="text" name="phone" id="phone" required class="form-control"
+                                            placeholder="Phone Number">
+                                    </div>
+                                </div>
+
+                    </div>
+                   
+                    <div class="row">
+                        <div class="col-md-6">
+                            <div class="form-group">
+                                <label for="user_email">Price</label>
+                                <input type="text" class="form-control" name="price" id="price" required
+                                    placeholder="Price">
+                            </div>
+                        </div>
+                        <div class="col-md-6 ">
+                            <div class="form-group">
+                                <label for="user_email">Upload image</label>
+                                <input class="mt-3 h6" type="file" id="image" name="image"  required>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12 mx-auto text-center">
+                            <button type="submit" class="button_one mt-3">Submit Form</button>
+                        </div>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!-- End Page -->
+    <!-- Start Footer -->
+{{> indexFooter}}
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

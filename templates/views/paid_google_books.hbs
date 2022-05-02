@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>College Zone: Books</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/googleBooks.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <!-- Start Header -->
+        {{>header1}}
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+
+    <!-- End Hero Area -->
+    <!-- Start Featured Section -->
+    <!-- Start Header -->
+
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+
+    <!-- End Hero Area -->
+    <!-- Start Featured Section -->
+    <div class="searchbar mt-5" style="display: flex; justify-content: center;">
+        <div class="input-group" style="width: 263px;">
+            <div class="form-outline">
+              <input type="search" id="sear" class="form-control" placeholder="Search for ebooks" />
+            </div>
+            <button type="button" class="btn btn-primary" onclick="searched()">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>    
+    </div>
+    <section class="featured-section-3 pt-4 section-ptb-3" data-aos="fade-up">
+        <div class="featured-area-wrapper show_navigation_2">
+            <div class="container">
+
+                <div id="outerDiv" class="row">
+                    <template id="template">
+
+                        <div class="col-lg-3 col-md-6 filter branding mb-5 template1">
+                            <div class="single-featured-5  bg-white text-center template2">
+                                <div class="feature-image thumbnail">
+                                    <img src="" alt="Featured" class="thumbnail1">
+                                    <div class="product-price-4 priceouter">
+                                        <span>Rs. </span><span class="priceInner">DUMMY</span>
+                                    </div>
+                                </div>
+                                <div class="featured-text-and-info border-6 details">
+                                    <div class="feature-content px-2 pt-3 desc">
+                                        <!-- <h5 class="title-"> -->
+                                        <a href="#" class="title- h5">DUMMY</a>
+                                        <br>
+                                        <!-- </h5> -->
+                                        <p class="description">DUMMY</p>
+                                    </div>
+                                    <div class="feature-status-wrapper border-top extra">
+                                        <div class="feature-status-3 px-2 py-1 extra1">
+                                            <div class="single-status pgOuter">
+                                                <span>Pages. </span><span class="pageno">153</span>
+                                            </div>
+
+                                            <div class="single-status">
+                                                <span class="rewNo">14</span><span> Reviews </span><span class="stars">(
+                                                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                                        class="fas fa-star-half"></i>)</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </template>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Featured Section -->
+    <!-- Start Footer -->
+    {{> indexFooter}}
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/paidGbooks.js"></script>
+</body>
+
+</html>

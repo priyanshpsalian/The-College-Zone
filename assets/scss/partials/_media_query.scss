@@ -1,0 +1,37 @@
+/**
+* ============================
+*  3.Media Query
+* ============================
+*/ 
+$xl-large-device: 1199px;
+$large-device: 992px;
+$desktop-device: 991px;
+$tablet-device: 768px;
+$mobile-device: 575px;
+@mixin large {
+  @media (min-width: #{$large-device}) {
+    @content;
+  }
+}
+@mixin xl_large {
+  @media (min-width: #{$xl-large-device}) {
+    @content;
+  }
+}
+@mixin desktop {
+  @media (min-width: #{$tablet-device}) and (max-width: #{$desktop-device}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (max-width: #{$tablet-device}) {
+    @content;
+  }
+}
+
+@mixin mobile {
+  @media (max-width: #{$mobile-device}) {
+    @content;
+  }
+}

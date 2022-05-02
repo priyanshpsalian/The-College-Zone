@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- set the encoding of your site -->
+    <meta charset="utf-8">
+    <!-- set the viewport width and initial-scale on mobile devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Zone: Posts</title>
+    <!-- include the site stylesheet -->
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:300,400,700%7CPoppins:400,300,500,600,700'
+        rel='stylesheet' type='text/css'>
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css2/font-awesome.min.css">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css2/bootstrap.css">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css2/animate.css">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css2/style.css">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css2/responsive.css">
+    <!-- include the site stylesheet -->
+    <link rel="stylesheet" href="css2/colors.css">
+    {{!-- nav and footer css --}}
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/ours.css">
+</head>
+
+<body class="version-ii">
+
+    {{> header1}}
+    {{!-- <h2>{{da}}</h2> --}}
+    
+    {{!-- <img src={{da}} alt='Helpful alt text'/> --}}
+    {{#each da}}<div class="container">
+        <div class="row d-flex justify-content-between">
+            <!-- Content of the page -->
+            <article id="content" class="col-xs-12 col-md-8">
+                <!-- Post Block of the page -->
+                <div class="post-block single-post wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="post-holder">
+                        <div class="img-holder">
+                            {{!-- <img src="data:image/{{img.contentType}};base64,{{img.data}}.toString('base64')" > --}}
+                            <img src="data:image/{{img.contentType}};base64,{{{image img.data}}}" >
+
+                        </div>
+                        <time datetime="2011-01-12"><a href="#">Organized on {{date}}</a></time>
+                        <h2>{{title}}</h2>
+                        <p>{{description}}</p>
+                        <blockquote>
+
+                            <a href={{main_link}}>Click here to register</a>
+                        </blockquote>
+
+                        <footer>
+                            <strong class="text"><i class="fa-solid fa-link mr-4"></i><a
+                                    href="{{attach_links}}">Link</a></strong>
+                            <strong class="text comment-count"><i class="fa-solid fa-phone mr-4"></i>Contact no &nbsp;:- &nbsp; <a
+                                    href="#">{{phone}}</a></strong>
+                            <strong class="text"><i class="fa-solid fa-calendar mr-4"></i>Important &nbsp;:- &nbsp; <a
+                                    href="#">{{importance}}</a> <a href="#"></a> <a href="#"></a></strong>
+
+                        </footer>
+                    </div>
+                </div>
+
+            </article>
+
+        </div>
+    </div>{{/each}}
+
+    </main>
+    <span id="back-top" class="fa fa-angle-up"></span>
+    </div>
+    </div>
+
+    {{> indexFooter}}
+    <!-- End Footer -->
+
+    <!-- include jQuery -->
+    <script src="js2/jquery.js"></script>
+    <!-- include jQuery -->
+    <script src="js2/plugins.js"></script>
+    <!-- include jQuery -->
+    <script src="js2/jquery.main.js"></script>
+
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>

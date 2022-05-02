@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>College Zone: Contact Us</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+    <link rel="stylesheet" href="css1/buybook_index.css">
+    <link rel="stylesheet" href="css1/ours.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    {{> navbar_user}}
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+    <section class="hero-section height-470 mt-5" style="background-image:url(https://cdn.pixabay.com/photo/2016/12/15/12/24/contact-us-1908762_960_720.png)" data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-3"></h1>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!-- Start Page Wrapper-->
+    <div class="page-wrapper section-pt">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 mb-3d-5" data-aos="fade-up">
+                    <div class="main-content">
+                        <div class="contact-from-wrapper-2">
+                            <h2 class="section-heading">Get In Touch</h2>
+                            <form action="/contact_us" method="post" class="contact-form mt-4">
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="name" id="name " class="form-control" placeholder="Enter Your Name" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="email" name="email" id="email" class="form-control" placeholder="Enter Your Email" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="text" name="phone" id="phone " class="form-control" id="phone_number" placeholder="Enter Phone Number" required>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div class="form-group">
+                                            <input type="subject" name="subject" id="subject" class="form-control" placeholder="Enter Subject">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12">
+                                        <div class="form-group">
+                                            <textarea name="message" name="message" id="message" class="form-control" id="message" cols="30" rows="6" placeholder="Write Your Message"></textarea>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-12 mx-auto text-center">
+                                        <button type="submit">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4" data-aos="fade-up">
+                    <div class="highlights-section hover_bg text-white p-4">
+                        <h4>All here are to help and provide you with best of our abilities. Contact us with any query.</h4>
+                        <ul>
+                            <li><i class="fas fa-paper-plane"></i> Bandra, Mumbai</li>
+                            <li><i class="fas fa-envelope"></i> tsecedu@gmail.com</li>
+                        </ul>
+                        <div class="social-links">
+                            <ul>
+                                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fab fa-behance"></i></a></li>
+                                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="map-area section-ptb-3" data-aos="fade-up"> 
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="embeded-map-area">
+                        <div class="mapouter">
+                            <div class="gmap_canvas">
+                                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.9834629561597!2d72.8336715146973!3d19.064464687094482!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c91130392c07%3A0x3c47bf391c8de931!2sThadomal%20Shahani%20Engineering%20College!5e0!3m2!1sen!2sin!4v1650609705532!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- End Page Wrapper-->
+{{> indexFooter}}
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/jquery.matchHeight-min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/buybook_index.js"></script>
+</body>
+
+</html>

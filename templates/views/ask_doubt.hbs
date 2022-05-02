@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>COLLEGE ZONE</title>
+    <link rel="icon" type="image/png" href="images/favicon.png">
+    <link rel="stylesheet" href="css1/bootstrap.min.css">
+    <link rel="stylesheet" href="css1/owl.carousel.min.css">
+    <link rel="stylesheet" href="css1/font-awesome.min.css">
+    <link rel="stylesheet" href="css1/aos.css">
+    <link rel="stylesheet" href="css1/swiper.min.css">
+    <link rel="stylesheet" href="css1/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css1/style.css">
+</head>
+
+<body>
+    <!-- Start Header -->
+    {{> navbar_user}}
+    <!-- End Header -->
+    <!-- Start Hero Area -->
+    <section class="hero-section height-490 aos-init overlay aos-animate" style="background-image: url(https://relevantmagazine.com/wp-content/uploads/2019/09/cropped-Christiancollege.jpg);
+    height: 600px;" data-aos="fade-up">
+        <div class="hero-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="page-hrader text-white text-center">
+                            <h1 class="display-3">Ask doubts</h1>
+                            <div class="page-breadcrumb">
+                                <p>Ask any querry to the experienced flocks, anytime anywhere open mindedly</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Hero Area -->
+    <!--Start Page -->
+    <div class="page-wrapper mt-5" data-aos="fade-up">
+        <div class="container mx-auto text-center">
+            <div class="row mx-auto text-center">
+                <div class="col-md-10 mx-auto">
+                    <div class="apply-wrapper">
+                        <h2>Ask doubts</h2>
+
+                        <form action="/ask_doubt" method="post" class="apply_form bg_dark_9 p-5">
+                            <div class="row mx-auto text-center">
+                                <div class="col-md-6 mx-auto text-center">
+                                    <div class="form-group mx-auto text-center">
+                                        {{!-- <label for="user_first_name">ANSWER</label> --}}
+                                        <input type="text" name="doubt_name" id="doubt_name" class="form-control"
+                                            placeholder="Your Name" value={{da}} />
+
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="row mx-auto text-center">
+                                <div class="col-md-6 mx-auto text-center">
+                                    <div class="form-group mx-auto text-center">
+                                        <label for="user_first_name">title</label>
+                                        <input type="text" name="doubt_title" id="doubt_title" class="form-control"
+                                            placeholder="Your Name"  />
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+
+                            <div class="row">
+                                <div class="col-md-6 mx-auto text-center">
+                                    <div class="form-group mx-auto text-center">
+                                        <label for="user_last_name"> doubt</label>
+                                        {{!-- <input class="form-control" type="text" name="doubt" id="doubt" required
+                                            placeholder="Doubt" required> --}}
+                                        <textarea class="form-control" name="doubt" id="doubt" required cols="30"
+                                            rows="5" placeholder="Your Doubt"></textarea>
+                                    </div>
+                                </div>
+
+
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12 mx-auto text-center">
+                                    <button type="submit" class="button_one mt-3">Submit Form</button>
+                                </div>
+                            </div>
+                        </form>
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- End Page -->
+    <!-- Start Footer -->
+{{> indexFooter}}
+    <!-- End Footer -->
+    <script src="js/jquery-3.4.0.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/bootnavbar.js"></script>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
