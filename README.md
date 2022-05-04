@@ -4,7 +4,7 @@
 </p>
 
 <p align="center">
-  A straightforward framework built solving every problem which a <i>college student faces.</i>.
+  A straightforward framework built solving every problem which a <i>college student faces.</i>
   <br />
   <br />
   <a href="#table-of-content"><b>Explore the docs »</b></a>
