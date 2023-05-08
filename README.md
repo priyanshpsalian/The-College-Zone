@@ -581,6 +581,7 @@ The complete setup can be found in the [package.json](/package.json).
 
 - Priyansh Salian 
   - [LinkedIn](https://www.linkedin.com/in/priyansh-salian-6a74a621a)
-
-
+- Idris Ratlamwala
+  - [Github](https://github.com/idris110)
+  
 <sub>Changing lives through technology.</sub>
